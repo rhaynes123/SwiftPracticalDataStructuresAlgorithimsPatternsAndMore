@@ -6,9 +6,10 @@
 //
 
 import Foundation
-struct Movie {
-    let id: UUID
+struct Movie : Identifiable {
+    let id: UUID = UUID()
     let title: String
     let releaseDate : String
     let director: String
+    let imageString: String
 }

@@ -10,14 +10,16 @@ import SwiftUI
 struct ContentView: View {
     @StateObject private var model = MainViewModel()
     var body: some View {
-        NavigationView{
-            ScrollView{
-                ForEach(model.getMovies(), id: \.id){ movie in
-                    NavigationLink(destination:MovieDetailsView(movieId: movie.id)){
-                        Text(movie.title)
+        NavigationView {
+            List {
+                ScrollView {
+                    ForEach(model.getMovies(), id: \.id){ movie in
+                        NavigationLink(destination:MovieDetailsView(movieId: movie.id)){
+                            Text(movie.title)
+                        }
                     }
-                }
-            }.navigationTitle("Spider-Man Movies")
+                }.navigationTitle("Spider-Man Movies")
+            }
         }
         .environmentObject(model)
     }

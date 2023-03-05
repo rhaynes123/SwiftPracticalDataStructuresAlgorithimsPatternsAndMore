@@ -13,6 +13,7 @@ struct MovieDetailsView: View {
     let movieId: UUID
     var body: some View {
         VStack(spacing: 10){
+            AsyncImage(url: URL(string: movie.imageString))
             Text("**Title** \(movie.title)")
             Text("**Director** \(movie.director)")
             Text("**ReleaseDate** \(movie.releaseDate)")
