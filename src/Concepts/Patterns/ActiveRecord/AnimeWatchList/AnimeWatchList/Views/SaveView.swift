@@ -12,70 +12,70 @@
 import SwiftUI
 import CoreData
 struct SaveView: View {
-    @Environment(\.managedObjectContext) private var viewContext
+    @State private var model : SaveViewModel = SaveViewModel()
+    @State var animeStartDate : Date = Date()
+    @State var animeFinishedDate : Date = Date()
+    @State var animeName : String = ""
     @Environment(\.dismiss) private var dismiss
-    @State private var animeName : String = ""
-    @State private var animeStartDate : Date = Date()
-    @State private var animeFinishedDate : Date? = nil
+   
+
+    let existingAnime : Anime?
     
-    @State private var hasStarted : Bool = false
-    @State private var hasFinished : Bool = false
-    
-    var existingAnime : Anime? = nil
-    
+    // MARK Private Methods
     private func saveAnime(){
-        let anime = Anime(context: viewContext)
-        anime.id = UUID()
-        anime.name = animeName
-        anime.dateStarted = hasStarted ? animeStartDate : nil
-        anime.dateFinished = hasFinished ? animeFinishedDate : nil
-        do {
-            try anime.save()
-        }catch{
-            print(error)
+        if existingAnime != nil{
+            model.editAnime(existingAnime: existingAnime)
+        }
+        else{
+            model.createAnime()
         }
     }
+
+    private func LoadExisting(){
+        guard let currentAnime = existingAnime else {
+            return
+        }
+        animeName = currentAnime.name ?? ""
+        animeStartDate = currentAnime.dateStarted ?? Date()
+        animeFinishedDate = currentAnime.dateFinished ?? Date()
+    }
     
-//    private func editAnime(){
-//        guard let anime = existingAnime else {
-//            return
-//        }
-//        anime.name = animeName
-//        anime.dateStarted = hasStarted ? animeStartDate : nil
-//        anime.dateFinished = hasFinished ? animeFinishedDate : nil
-//        do {
-//            try anime.save()
-//        }catch{
-//            print(error)
-//        }
-//    }
-//
-//    private func LoadExisting(){
-//
-//    }
     var body: some View {
-        Form{
-            TextField("Name", text: $animeName)
-            DatePicker("Started", selection: $animeStartDate, displayedComponents: .date)
-                .onChange(of: animeStartDate){ _ in
-                hasStarted = true
+        Form {
+            TextField("Name", text: $animeName).onChange(of: animeName){newAnimeName in
+                model.animeName = newAnimeName
             }
-            //TextField("Finished", text: $animeFinishedDate)
-            HStack{
+            DatePicker("Started", selection: $animeStartDate, displayedComponents: .date)
+                .onChange(of: animeStartDate){ newStartDate in
+                    model.animeStartDate = newStartDate
+                    model.hasStarted = true
+                }
+            DatePicker("Finished", selection: $animeFinishedDate, displayedComponents: .date)
+                .onChange(of: animeFinishedDate){ newFinishedDate in
+                    model.animeFinishedDate = newFinishedDate
+                    model.hasFinished = true
+                }
+            HStack(spacing: 175){
                 Button("Save"){
                     saveAnime()
                     dismiss()
-                }
-                Button("Cancel"){
+                }.buttonStyle(.borderedProminent)
+                Button("Cancel", role: .cancel){
                     dismiss()
-                }
+                }.buttonStyle(.borderedProminent)
             }
+        }.onAppear{
+            LoadExisting()
         }
     }
 }
 
 struct SaveView_Previews: PreviewProvider {
+    static let anime = Anime(context:PersistenceProvider.preview.container.viewContext)
     static var previews: some View {
-        SaveView(existingAnime : nil)
+        SaveView(existingAnime: anime)
     }
 }
+
+
+

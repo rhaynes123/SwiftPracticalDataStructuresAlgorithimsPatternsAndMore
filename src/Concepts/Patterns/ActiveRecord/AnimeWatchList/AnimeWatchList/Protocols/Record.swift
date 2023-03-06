@@ -15,6 +15,10 @@ extension Record where Self: NSManagedObject{
     func save() throws{
         try PersistenceProvider.shared.container.viewContext.save()
     }
+    func delete() throws{
+        PersistenceProvider.shared.container.viewContext.delete(self)
+        try PersistenceProvider.shared.container.viewContext.save()
+    }
     static var all: NSFetchRequest<Self>{
         let request = NSFetchRequest<Self>(entityName: String(describing: self))
         request.sortDescriptors = []

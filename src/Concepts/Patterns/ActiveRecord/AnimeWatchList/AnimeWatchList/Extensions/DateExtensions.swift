@@ -16,12 +16,7 @@ extension Date? {
         }
         return dateFormatter.string(from: date)
     }
-    
-    func fromString(from inputValue: String) -> Date? {
-        let dateFormatter : DateFormatter = getFormatter()
-        return dateFormatter.date(from: inputValue)
-    }
-    
+   
     private func getFormatter() -> DateFormatter{
         let formatter = DateFormatter()
         formatter.dateStyle = .short

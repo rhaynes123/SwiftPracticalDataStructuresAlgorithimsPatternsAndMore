@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55C01E9529B4EE87003AE5EF /* SaveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C01E9429B4EE87003AE5EF /* SaveViewModel.swift */; };
 		55F8C6C629B3DD350044C455 /* AnimeWatchListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8C6C529B3DD350044C455 /* AnimeWatchListApp.swift */; };
 		55F8C6C829B3DD350044C455 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F8C6C729B3DD350044C455 /* ContentView.swift */; };
 		55F8C6CA29B3DD360044C455 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F8C6C929B3DD360044C455 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55C01E9429B4EE87003AE5EF /* SaveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewModel.swift; sourceTree = "<group>"; };
 		55F8C6C229B3DD350044C455 /* AnimeWatchList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeWatchList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F8C6C529B3DD350044C455 /* AnimeWatchListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeWatchListApp.swift; sourceTree = "<group>"; };
 		55F8C6C729B3DD350044C455 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55C01E9329B4EE25003AE5EF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				55C01E9429B4EE87003AE5EF /* SaveViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		55F8C6B929B3DD350044C455 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 		55F8C6C429B3DD350044C455 /* AnimeWatchList */ = {
 			isa = PBXGroup;
 			children = (
+				55C01E9329B4EE25003AE5EF /* ViewModels */,
 				55F8C6F829B3E5CD0044C455 /* Extensions */,
 				55F8C6F529B3E3250044C455 /* Protocols */,
 				55F8C6F429B3E2310044C455 /* Views */,
@@ -299,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C01E9529B4EE87003AE5EF /* SaveViewModel.swift in Sources */,
 				55F8C6FA29B3E6050044C455 /* AnimeExtensions.swift in Sources */,
 				55F8C6D229B3DD360044C455 /* AnimeWatchList.xcdatamodeld in Sources */,
 				55F8C6CF29B3DD360044C455 /* Persistence.swift in Sources */,
