@@ -55,7 +55,7 @@ struct SaveView: View {
                     model.animeFinishedDate = newFinishedDate
                     model.hasFinished = true
                 }
-            HStack(spacing: 175){
+            HStack(spacing: 170){
                 Button("Save"){
                     saveAnime()
                     dismiss()
