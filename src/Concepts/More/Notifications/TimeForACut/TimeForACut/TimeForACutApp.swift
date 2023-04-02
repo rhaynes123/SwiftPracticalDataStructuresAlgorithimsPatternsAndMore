@@ -11,7 +11,7 @@ import SwiftUI
 struct TimeForACutApp: App {
     var body: some Scene {
         WindowGroup {
-            VisitsView().environment(\.managedObjectContext, PersistenceProvider.shared.container.viewContext)
+            VisitsView().environment(\.managedObjectContext, PersistenceProvider.preview.container.viewContext)
         }
     }
 }

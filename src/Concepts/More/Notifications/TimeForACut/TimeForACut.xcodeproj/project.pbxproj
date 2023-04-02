@@ -19,6 +19,7 @@
 		55BF451629D8A50000A7AA44 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF451529D8A50000A7AA44 /* Record.swift */; };
 		55BF451929D8A55900A7AA44 /* VisitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF451829D8A55900A7AA44 /* VisitExtensions.swift */; };
 		55DE191F29D8A8D000DAA6FE /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE191E29D8A8D000DAA6FE /* NotificationManager.swift */; };
+		55DE192329D9DF2200DAA6FE /* VisitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE192229D9DF2200DAA6FE /* VisitsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		55BF451529D8A50000A7AA44 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		55BF451829D8A55900A7AA44 /* VisitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitExtensions.swift; sourceTree = "<group>"; };
 		55DE191E29D8A8D000DAA6FE /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		55DE192229D9DF2200DAA6FE /* VisitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +114,14 @@
 		558D288329D51E3D003C613A /* TimeForACut */ = {
 			isa = PBXGroup;
 			children = (
+				55DE192129D9DEF300DAA6FE /* ViewModels */,
+				55DE192029D9DE8100DAA6FE /* Views */,
 				55DE191D29D8A8A500DAA6FE /* Managers */,
 				55BF451729D8A53A00A7AA44 /* Extensions */,
 				55BF451429D8A4E800A7AA44 /* Protocols */,
 				5569008629D874E900E17138 /* Persistence */,
 				558D28AE29D51E94003C613A /* TimeForACut.xcdatamodeld */,
 				558D288429D51E3D003C613A /* TimeForACutApp.swift */,
-				558D288629D51E3D003C613A /* VisitsView.swift */,
 				558D288829D51E3E003C613A /* Assets.xcassets */,
 				558D288A29D51E3E003C613A /* Preview Content */,
 			);
@@ -172,6 +175,22 @@
 				55DE191E29D8A8D000DAA6FE /* NotificationManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		55DE192029D9DE8100DAA6FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				558D288629D51E3D003C613A /* VisitsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55DE192129D9DEF300DAA6FE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				55DE192229D9DF2200DAA6FE /* VisitsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +329,7 @@
 				558D288529D51E3D003C613A /* TimeForACutApp.swift in Sources */,
 				55DE191F29D8A8D000DAA6FE /* NotificationManager.swift in Sources */,
 				558D28B029D51E94003C613A /* TimeForACut.xcdatamodeld in Sources */,
+				55DE192329D9DF2200DAA6FE /* VisitsViewModel.swift in Sources */,
 				55BF451929D8A55900A7AA44 /* VisitExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
