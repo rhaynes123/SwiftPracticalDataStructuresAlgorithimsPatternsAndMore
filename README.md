@@ -31,6 +31,7 @@ These are follow-up by videos from the [CodeWithChris](https://www.youtube.com/@
 * [Set](src/Concepts/DataStructures/Set/README.md)
 ## Algorithims
 [Swift Algorithim Repo Examples](https://github.com/kodecocodes/swift-algorithm-club)
+* [Linear Search](src/Concepts/Algorithims/LinearSearch/README.md)
 ## Design Patterns
 ## More
 * [APIs](src/Concepts/More/APIs/README.md)
