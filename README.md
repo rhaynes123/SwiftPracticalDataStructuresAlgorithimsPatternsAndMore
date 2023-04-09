@@ -28,6 +28,7 @@ These are follow-up by videos from the [CodeWithChris](https://www.youtube.com/@
 ## Data Structures
 * [Array](src/Concepts/DataStructures/Array/README.md)
 * [Dictionary](src/Concepts/DataStructures/Dictionary/README.md)
+* [Set](src/Concepts/DataStructures/Set/README.md)
 ## Algorithims
 [Swift Algorithim Repo Examples](https://github.com/kodecocodes/swift-algorithm-club)
 ## Design Patterns
