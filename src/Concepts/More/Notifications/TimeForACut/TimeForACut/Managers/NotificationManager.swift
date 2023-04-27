@@ -14,6 +14,7 @@ struct NotificationsManager {
     static let shared = NotificationsManager()
     
     func requestNotificationAuthorization(){
+        // Badge is the red numerical icon that displays over apps needing attention
         let options: UNAuthorizationOptions = [.alert, .sound, .badge]
         UNUserNotificationCenter.current().requestAuthorization(options: options){
             (success, error) in
