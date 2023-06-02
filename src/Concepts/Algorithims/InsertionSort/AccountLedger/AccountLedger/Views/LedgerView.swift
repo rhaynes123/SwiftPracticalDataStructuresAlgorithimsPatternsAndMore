@@ -12,9 +12,9 @@ struct LedgerView: View {
     var body: some View {
         List{
             Text("Account Balances")
-            ForEach(model.accountBalances, id: \.self){ balance in
-                let decimalString = "$ \(balance)"
-                Text(decimalString)
+            ForEach(model.accountBalances, id: \.self){ account in
+                let decimalString = "$ \(account.balance)"
+                Text("Name: \(account.name) Balance: \(decimalString)")
             }
         }
     }

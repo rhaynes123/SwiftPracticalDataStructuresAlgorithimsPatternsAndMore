@@ -15,6 +15,7 @@
 		554230062A2935E700BE1320 /* AccountLedgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554230052A2935E700BE1320 /* AccountLedgerUITests.swift */; };
 		554230082A2935E700BE1320 /* AccountLedgerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554230072A2935E700BE1320 /* AccountLedgerUITestsLaunchTests.swift */; };
 		554230172A29372D00BE1320 /* LedgerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554230162A29372D00BE1320 /* LedgerViewModel.swift */; };
+		5542301A2A29A2F700BE1320 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554230192A29A2F700BE1320 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		554230052A2935E700BE1320 /* AccountLedgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountLedgerUITests.swift; sourceTree = "<group>"; };
 		554230072A2935E700BE1320 /* AccountLedgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountLedgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		554230162A29372D00BE1320 /* LedgerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerViewModel.swift; sourceTree = "<group>"; };
+		554230192A29A2F700BE1320 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		55422FE92A2935E500BE1320 /* AccountLedger */ = {
 			isa = PBXGroup;
 			children = (
+				554230182A29A2DC00BE1320 /* Models */,
 				554230152A29361500BE1320 /* ViewModels */,
 				554230142A29360700BE1320 /* Views */,
 				55422FEA2A2935E500BE1320 /* AccountLedgerApp.swift */,
@@ -144,6 +147,14 @@
 				554230162A29372D00BE1320 /* LedgerViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		554230182A29A2DC00BE1320 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				554230192A29A2F700BE1320 /* Account.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55422FED2A2935E500BE1320 /* LedgerView.swift in Sources */,
+				5542301A2A29A2F700BE1320 /* Account.swift in Sources */,
 				554230172A29372D00BE1320 /* LedgerViewModel.swift in Sources */,
 				55422FEB2A2935E500BE1320 /* AccountLedgerApp.swift in Sources */,
 			);

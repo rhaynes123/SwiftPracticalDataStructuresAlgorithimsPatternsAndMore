@@ -7,19 +7,20 @@
 // https://victorqi.gitbooks.io/swift-algorithm/content/insertion_sort.html
 import Foundation
 
+
 final class LedgerViewModel : ObservableObject {
-    private var samples : [Decimal] = [
-        23433.90,
-        55005.32,
-        1008.23,
-        1100.00,
+    private var samples : [Account] = [
+        Account(name: "Brians Pizza Slices", balance: 23433.90),
+        Account(name: "Wallace and Sons", balance: 55005.32),
+        Account(name: "Tim's Toys for Tots", balance: 1008.23),
+        Account(name: "Tia's Tips", balance: 1100.00),
     ]
     
-    public var accountBalances : [Decimal] {
+    public var accountBalances : [Account] {
         return SortBalances(from: samples)
     }
     
-    public func SortBalances(from inputs : [Decimal]) -> [Decimal] {
+    public func SortBalances(from inputs : [Account]) -> [Account] {
         var balances = inputs
         
         for index in 1..<balances.count {
