@@ -9,6 +9,7 @@
  https://www.appsdeveloperblog.com/add-days-months-years-to-current-date-in-swift/
  https://stackoverflow.com/questions/45061324/repeating-local-notifications-for-specific-days-of-week-swift-3-ios-10
  https://auth0.com/blog/introduction-date-time-programming-swift-2/
+ https://www.appcoda.com/navigationstack/
  */
 import SwiftUI
 import CoreData
@@ -20,8 +21,8 @@ struct VisitsView: View {
     private var visits: FetchedResults<Visit>
     @ObservedObject private var model = VisitsViewModel()
     var body: some View {
-        NavigationView {
-            List {
+        NavigationStack {
+            VStack {
                 ForEach(visits) { visit in
                     NavigationLink {
                         Text("\(visit.dateOf!, formatter: model.visitFormatter)")

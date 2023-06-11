@@ -22,6 +22,7 @@ extension VisitsView {
     final class VisitsViewModel : ObservableObject {
         private let context = PersistenceProvider.shared.container.viewContext
         private let numberOfDaysForNextNotification = 7
+        
         let visitFormatter : DateFormatter = {
            let formatter = DateFormatter()
             formatter.dateStyle = .short
