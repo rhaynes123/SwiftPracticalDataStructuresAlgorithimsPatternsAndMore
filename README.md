@@ -36,3 +36,5 @@ These are follow-up by videos from the [CodeWithChris](https://www.youtube.com/@
 ## Design Patterns
 ## More
 * [APIs](src/Concepts/More/APIs/README.md)
+* [Notifications](src/Concepts/More/Notifications/README.md)
+* [User Defaults](src/Concepts/More/UserDefaults/README.md)
