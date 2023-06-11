@@ -32,6 +32,7 @@ These are follow-up by videos from the [CodeWithChris](https://www.youtube.com/@
 ## Algorithims
 [Swift Algorithim Repo Examples](https://github.com/kodecocodes/swift-algorithm-club)
 * [Linear Search](src/Concepts/Algorithims/LinearSearch/README.md)
+* [Reverse Number](src/Concepts/Algorithims/ReverseNumber/README.md)
 ## Design Patterns
 ## More
 * [APIs](src/Concepts/More/APIs/README.md)
