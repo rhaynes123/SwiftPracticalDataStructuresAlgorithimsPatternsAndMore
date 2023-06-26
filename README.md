@@ -33,8 +33,30 @@ These are follow-up by videos from the [CodeWithChris](https://www.youtube.com/@
 [Swift Algorithim Repo Examples](https://github.com/kodecocodes/swift-algorithm-club)
 * [Linear Search](src/Concepts/Algorithims/LinearSearch/README.md)
 * [Reverse Number](src/Concepts/Algorithims/ReverseNumber/README.md)
-## Design Patterns
-## More
+## Design Patterns & Architectural Patterns
+
+### Design Patterns
+
+### Architectural Patterns
+[Model View ViewModel](https://learn.microsoft.com/en-us/dotnet/architecture/maui/mvvm)
+* [MVVM](src/Concepts/Architectural%20Patterns/ModelViewViewModel/README.md)
+    ### Articles On MVVM
+    1.  [MVVM and Dependency Injection](https://swiftpackageindex.com/groue/GRDBQuery/0.7.0/documentation/grdbquery/mvvm)
+
+[The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture)
+### Videos On The Composable Architecture
+1. [Intro The Composable Architecture - Zach Eriksen](https://www.youtube.com/watch?v=MmzMHNO9cno)
+2. [The basics of The Composable Architecture ](https://www.youtube.com/watch?v=SfFDj6qT-xg&t=219s)
+    ### Artciles On The Composable Architecture
+    1. [Building Better iOS Apps with Swift Composable Architecture](https://medium.com/macoclock/building-better-ios-apps-with-swift-composable-architecture-754feb27c183)
+    ## More
 * [APIs](src/Concepts/More/APIs/README.md)
 * [Notifications](src/Concepts/More/Notifications/README.md)
 * [User Defaults](src/Concepts/More/UserDefaults/README.md)
+* [Dependency Injection](src/Concepts/More/Dependency%20Injection/README.md)
+    ### Videos On Dependency Injection
+    1. [How to implement Dependency Injection in Swift!](https://www.youtube.com/watch?v=sL0_BfnBybk&t=615s)
+    2. [How to use Dependency Injection in SwiftUI | Advanced Learning #16](https://www.youtube.com/watch?v=E3x07blYvdE)
+    3. [Clean Code in SwiftUI with Open Closed Principle MVVM and Dependency Injection](https://www.youtube.com/watch?v=DdgBwjFIvx0&list=PLHqzsC5DwHLV6U5p2S4nLa_H3S2_1XPRE&index=2)
+    ### Artciles On Dependency Injection
+    1. [MVVM and Dependency Injection](https://swiftpackageindex.com/groue/GRDBQuery/0.7.0/documentation/grdbquery/mvvm)

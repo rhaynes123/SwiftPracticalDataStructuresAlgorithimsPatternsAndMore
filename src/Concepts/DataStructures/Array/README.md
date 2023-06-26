@@ -67,3 +67,6 @@ class MenuTableViewController: UITableViewController {
 
 ### ScreenShots
 ![MainPage](Images/MainPageScreenshot.png) ![MenuPage](Images/MenuPageScreenshot.png)
+
+# HelpFul Links
+[23 Strategies for Efficient Array Usage in Swift](https://namitgupta.com/23-strategies-for-efficient-array-usage-in-swift)
