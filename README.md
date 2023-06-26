@@ -29,6 +29,7 @@ These are follow-up by videos from the [CodeWithChris](https://www.youtube.com/@
 * [Array](src/Concepts/DataStructures/Array/README.md)
 * [Dictionary](src/Concepts/DataStructures/Dictionary/README.md)
 * [Set](src/Concepts/DataStructures/Set/README.md)
+* [Tuples](src/Concepts/DataStructures/Tuples/README.md)
 ## Algorithims
 [Swift Algorithim Repo Examples](https://github.com/kodecocodes/swift-algorithm-club)
 * [Linear Search](src/Concepts/Algorithims/LinearSearch/README.md)
