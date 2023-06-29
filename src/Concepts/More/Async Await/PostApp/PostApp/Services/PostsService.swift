@@ -7,11 +7,6 @@
 
 import Foundation
 struct PostService {
-    
-    enum PostServiceError : Error {
-        case failed, failedToDecode,invalidStatusCode
-    }
-    
     private var postUrlString = "https://jsonplaceholder.typicode.com/posts"
     
     func getPosts() async throws -> [Post]{
@@ -22,9 +17,13 @@ struct PostService {
               response.statusCode == 200 else {
             throw PostServiceError.invalidStatusCode
         }
-        
-        let decodedPostData = try JSONDecoder().decode([Post].self, from: data)
-        
-        return decodedPostData
+        do {
+            let decodedPostData = try JSONDecoder().decode([Post].self, from: data)
+            return decodedPostData
+        }
+        catch {
+            throw PostServiceError.failedToDecode
+        }
     }
 }
+

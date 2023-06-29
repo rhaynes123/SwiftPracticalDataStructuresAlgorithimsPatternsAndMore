@@ -14,6 +14,7 @@
 		55444E0C2A4E052F00E434AF /* PostsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55444E0B2A4E052F00E434AF /* PostsService.swift */; };
 		55444E0E2A4E05C300E434AF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55444E0D2A4E05C300E434AF /* Post.swift */; };
 		55444E102A4E0BB600E434AF /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55444E0F2A4E0BB600E434AF /* PostsViewModel.swift */; };
+		55444E142A4E237100E434AF /* PostServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55444E132A4E237100E434AF /* PostServiceError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		55444E0B2A4E052F00E434AF /* PostsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsService.swift; sourceTree = "<group>"; };
 		55444E0D2A4E05C300E434AF /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		55444E0F2A4E0BB600E434AF /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		55444E132A4E237100E434AF /* PostServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostServiceError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		55444E092A4E050800E434AF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				55444E122A4E235600E434AF /* Enums */,
 				55444E0D2A4E05C300E434AF /* Post.swift */,
 			);
 			path = Models;
@@ -98,6 +101,14 @@
 				55444E0F2A4E0BB600E434AF /* PostsViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		55444E122A4E235600E434AF /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				55444E132A4E237100E434AF /* PostServiceError.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55444E142A4E237100E434AF /* PostServiceError.swift in Sources */,
 				55444DFE2A4E04E400E434AF /* ContentView.swift in Sources */,
 				55444E102A4E0BB600E434AF /* PostsViewModel.swift in Sources */,
 				55444DFC2A4E04E400E434AF /* PostAppApp.swift in Sources */,
