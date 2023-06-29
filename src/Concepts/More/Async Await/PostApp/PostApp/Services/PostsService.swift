@@ -6,7 +6,12 @@
 //
 
 import Foundation
-struct PostService {
+
+protocol PostServiceProtocol {
+    func getPosts() async throws -> [Post]
+}
+
+struct PostService : PostServiceProtocol {
     private var postUrlString = "https://jsonplaceholder.typicode.com/posts"
     
     func getPosts() async throws -> [Post]{

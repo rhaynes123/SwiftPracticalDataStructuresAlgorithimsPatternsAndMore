@@ -7,9 +7,14 @@
 
 import Foundation
 final class PostsViewModel : ObservableObject {
-    private var postsService : PostService = PostService()
+    private var postsService : PostServiceProtocol
+    
+    init(postService : PostServiceProtocol){
+        postsService = postService
+    }
     
     func getPosts () async throws -> [Post] {
-        return try await postsService.getPosts()
+        let posts = try await postsService.getPosts()
+        return Array(posts.prefix(20))
     }
 }

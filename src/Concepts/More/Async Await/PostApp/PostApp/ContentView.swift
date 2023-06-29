@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var model : PostsViewModel = PostsViewModel()
+    @StateObject private var model : PostsViewModel = PostsViewModel(postService: PostService())
+    
     @State private var displayAlert = false
     @State private var errorMessage = ""
     @State private var posts : [Post] = []
@@ -16,7 +17,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             Form {
-                ForEach(Array(posts.prefix(20))) { post in
+                ForEach(posts) { post in
                     NavigationLink {
                         Text(post.title)
                             .font(.largeTitle)
