@@ -1,33 +1,13 @@
 //
-//  PostViewModelTestCases.swift
+//  PostAppTests.swift
 //  PostAppTests
 //
 //  Created by richard Haynes on 6/29/23.
 //
 
 import XCTest
-@testable import PostApp
-final class PostViewModelTestCases: XCTestCase {
-    
-    final class MockPostService: PostServiceProtocol {
-        func getPosts() async throws -> [PostApp.Post] {
-            
-            let data = Data("""
-                   [
-                    {
-                        "userId": 1,
-                        "id": 3,
-                        "title": "",
-                        "body": ""
-                    }
-                    ]
-""".utf8)
-            let decodedPostData = try JSONDecoder().decode([Post].self, from: data)
-            return decodedPostData
-        }
-    }
-    
-    
+
+final class PostAppTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -47,15 +27,9 @@ final class PostViewModelTestCases: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
-    }
-    
-    func testThatPostViewModelGetPosts() async throws {
-        let _sut = PostsViewModel(postService: MockPostService())
-        let testPosts = try await _sut.getPosts()
-        XCTAssertEqual(testPosts.count, 1)
     }
 
 }

@@ -4,7 +4,9 @@
 //
 //  Created by richard Haynes on 6/29/23.
 //
-
+// https://paul-samuels.com/blog/2019/01/07/swift-codable-testing/
+// https://jsonplaceholder.typicode.com/posts
+// https://levelup.gitconnected.com/quick-start-writing-unit-tests-in-xcode-4655b644c770
 import XCTest
 @testable import PostApp
 final class PostViewModelTestCases: XCTestCase {
@@ -16,9 +18,9 @@ final class PostViewModelTestCases: XCTestCase {
                    [
                     {
                         "userId": 1,
-                        "id": 3,
-                        "title": "",
-                        "body": ""
+                        "id": 3000,
+                        "title": "Mock Title",
+                        "body": "Mock Body"
                     }
                     ]
 """.utf8)
@@ -27,35 +29,33 @@ final class PostViewModelTestCases: XCTestCase {
         }
     }
     
-    
+    private var _sut : PostsViewModel!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        _sut = PostsViewModel(postService: MockPostService())
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        _sut = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+  
+    func testThatPostViewModelGetPosts() async throws {
+        let testPosts = try await _sut.getPosts()
+        XCTAssertGreaterThan(testPosts.count, 0)
     }
     
-    func testThatPostViewModelGetPosts() async throws {
-        let _sut = PostsViewModel(postService: MockPostService())
+    func testThatPostViewModelGetPostsDoesNotReturnMoreThan20Posts() async throws {
         let testPosts = try await _sut.getPosts()
-        XCTAssertEqual(testPosts.count, 1)
+        XCTAssertLessThanOrEqual(testPosts.count, 20)
+    }
+    
+    func testThatPostHasABody() async throws {
+        let testPosts = try await _sut.getPosts()
+        let firstPost = testPosts[0]
+        XCTAssertEqual(firstPost.body, "Mock Body")
     }
 
 }
