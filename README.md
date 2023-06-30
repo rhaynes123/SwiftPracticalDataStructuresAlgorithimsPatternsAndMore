@@ -54,6 +54,8 @@ These are follow-up by videos from the [CodeWithChris](https://www.youtube.com/@
 * [APIs](src/Concepts/More/APIs/README.md)
 * [Notifications](src/Concepts/More/Notifications/README.md)
 * [User Defaults](src/Concepts/More/UserDefaults/README.md)
+* [Protocols](src/Concepts/More/Protocols//README.md)
+* [Unit Testing](src/Concepts/More/Unit%20Testing/README.md)
 * [Dependency Injection](src/Concepts/More/Dependency%20Injection/README.md)
     ### Videos On Dependency Injection
     1. [How to implement Dependency Injection in Swift!](https://www.youtube.com/watch?v=sL0_BfnBybk&t=615s)
