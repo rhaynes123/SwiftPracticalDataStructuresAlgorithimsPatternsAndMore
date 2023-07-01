@@ -7,6 +7,7 @@
 // https://paul-samuels.com/blog/2019/01/07/swift-codable-testing/
 // https://jsonplaceholder.typicode.com/posts
 // https://levelup.gitconnected.com/quick-start-writing-unit-tests-in-xcode-4655b644c770
+// https://www.youtube.com/watch?v=opkU2UuPk0A&t=17s
 import XCTest
 @testable import PostApp
 final class PostViewModelTestCases: XCTestCase {
