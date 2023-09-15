@@ -6,6 +6,10 @@
 //
 // Helpful Links
 /*
+ https://www.linkedin.com/pulse/binary-search-algorithm-tutorial-swift-shuvo-karmakar/
+ https://www.codebykelvin.com/articles/swift/implementing-binary-search-in-swift/
+ https://victorqi.gitbooks.io/swift-algorithm/content/binary_search_and_binary_search_tree.html
+ https://www.appypie.com/binary-search-swift-how-to
  https://big-o.io/examples/bubble-sort/swift/
  https://diningwithrobots.com/2020/06/05/bubble-sort-with-swift/
  https://github.com/kodecocodes/swift-algorithm-club/tree/master/Bubble%20Sort
