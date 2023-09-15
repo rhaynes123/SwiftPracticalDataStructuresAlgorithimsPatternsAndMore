@@ -1,0 +1,2 @@
+# Model View ViewModel
+The Model View ViewModel pattern or MVVM for short is an Architecture pattern used very heavily in Swift iOS apps, this includes both UIKit and SwiftUI. The idea of the pattern is that the View will contain only code for building out the user interface. The Model will be a Plain Old Swift Object or POSO meaning the struct or class will only have properties to be used to represent data and the ViewModel will contain code to support any business logic or behavior. 

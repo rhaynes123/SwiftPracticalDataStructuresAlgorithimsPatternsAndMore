@@ -25,6 +25,7 @@ These are follow-up by videos from the [CodeWithChris](https://www.youtube.com/@
 1.  [Stepping through code and inspecting variables to isolate bugs](https://developer.apple.com/documentation/xcode/stepping-through-code-and-inspecting-variables-to-isolate-bugs)
 2. [Better print debugging with Xcode breakpoints](https://sarunw.com/posts/better-print-debugging-with-xcode-breakpoints/)
 # Concepts
+Helpful link working with collections [Linq Like Swift](https://github.com/mythz/swift-linq-examples)
 ## Data Structures
 * [Array](src/Concepts/DataStructures/Array/README.md)
 * [Dictionary](src/Concepts/DataStructures/Dictionary/README.md)
@@ -34,6 +35,7 @@ These are follow-up by videos from the [CodeWithChris](https://www.youtube.com/@
 [Swift Algorithim Repo Examples](https://github.com/kodecocodes/swift-algorithm-club)
 * [Linear Search](src/Concepts/Algorithims/LinearSearch/README.md)
 * [Reverse Number](src/Concepts/Algorithims/ReverseNumber/README.md)
+* [BinarySearch](src/Concepts/Algorithims/BinarySearch/README.md)
 ## Design Patterns & Architectural Patterns
 
 ### Design Patterns
