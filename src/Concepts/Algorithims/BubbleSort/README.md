@@ -1,6 +1,6 @@
 # Bubble Sort in Swift
 # The WHY
-Bubble sorting is one of the common and simpliest sorting algorithims in programming. There are a number of comparable sortive algorithims and they often because more complicated but their complexity often comes along with speed improvements. That being said sorting is critical to many searching algorithims for example a binary search won't work without sorting so for this example we are going to combine a bubble sort and a binary search.
+Bubble sorting is one of the common and simpliest sorting algorithims in programming. There are a number of comparable sortive algorithims and they often because more complicated but their complexity often comes along with speed improvements. Here's [one](https://github.com/kodecocodes/swift-algorithm-club/tree/master/Bubble%20Sort) of many articles around the performance of Bubblesort with more detailed examples. That being said sorting is critical to many searching algorithims for example a binary search won't work without sorting so for this example we are going to combine a bubble sort and a binary search.
 # The WHAT
 After even more thought I was finally able to think of a use case where a system would need to sort and entire collection and then return the position of a value instead of looking for that value itself ... a RANKING SYSTEM! 
 
@@ -121,3 +121,7 @@ struct ContentView_Previews: PreviewProvider {
 # Demo
 And to wrap it up here is a screenshot of what our example ios app would look like
 ![Image](../BinarySearch/Images/simulator_screenshot_F52D2190-975F-4CF3-8379-908DBA70E82E.png)
+### References
+* [Swift Program to sort an array in ascending order using bubble sort](https://www.tutorialspoint.com/swift-program-to-sort-an-array-in-ascending-order-using-bubble-sort)
+* [Bubble Sort with Swift](https://diningwithrobots.com/2020/06/05/bubble-sort-with-swift/)
+* [Bubble Sort in Swift](https://big-o.io/examples/bubble-sort/swift/)
