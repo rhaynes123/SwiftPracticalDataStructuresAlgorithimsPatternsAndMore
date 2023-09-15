@@ -35,7 +35,8 @@ Helpful link working with collections [Linq Like Swift](https://github.com/mythz
 [Swift Algorithim Repo Examples](https://github.com/kodecocodes/swift-algorithm-club)
 * [Linear Search](src/Concepts/Algorithims/LinearSearch/README.md)
 * [Reverse Number](src/Concepts/Algorithims/ReverseNumber/README.md)
-* [BinarySearch](src/Concepts/Algorithims/BinarySearch/README.md)
+* [Binary Search](src/Concepts/Algorithims/BinarySearch/README.md)
+* [Bubble Sort](src/Concepts/Algorithims/BubbleSort/README.md)
 ## Design Patterns & Architectural Patterns
 
 ### Design Patterns
