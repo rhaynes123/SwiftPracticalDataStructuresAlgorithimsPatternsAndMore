@@ -7,7 +7,7 @@
 
 import SwiftUI
 struct MainView: View {
-    var adventure : Adventure = Adventure.preview
+    var adventure : Adventure = Adventure(story: mainStory)
     private let radius: CGFloat = 10
     
     var body: some View {
@@ -27,7 +27,7 @@ struct MainView: View {
                         showErrorAlertView(errorMessage: "Pages Not Found")
                     }
                     else {
-                        NavigationLink(destination: PageView(story: adventure.story, pageNumber: 3)) {
+                        NavigationLink(destination: PageView(story: adventure.story, pageNumber: 1)) {
                             Text("Start Story").foregroundColor(.white)
                         }
                         .buttonStyle(ChoiceButtonStyle(backGroundColor: .blue, radius: radius))

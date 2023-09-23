@@ -13,8 +13,7 @@ struct Spider_Man_Choose_Your_Own_AdventureApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MainView()
         }
     }
 }

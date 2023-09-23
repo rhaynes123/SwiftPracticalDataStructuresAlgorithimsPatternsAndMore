@@ -3,34 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5517EA3F2AB2433100D4FC7A /* Spider_Man_Choose_Your_Own_AdventureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5517EA3E2AB2433100D4FC7A /* Spider_Man_Choose_Your_Own_AdventureApp.swift */; };
-		5517EA432AB2433200D4FC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5517EA422AB2433200D4FC7A /* Assets.xcassets */; };
-		5517EA462AB2433200D4FC7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5517EA452AB2433200D4FC7A /* Preview Assets.xcassets */; };
-		5517EA4B2AB2433200D4FC7A /* Spider_Man_Choose_Your_Own_Adventure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5517EA492AB2433200D4FC7A /* Spider_Man_Choose_Your_Own_Adventure.xcdatamodeld */; };
-		5517EA542AB2438900D4FC7A /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5517EA532AB2438900D4FC7A /* Story.swift */; };
-		5517EA562AB243CC00D4FC7A /* Adventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5517EA552AB243CC00D4FC7A /* Adventure.swift */; };
-		5517EA582AB2443100D4FC7A /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5517EA572AB2443100D4FC7A /* PageView.swift */; };
-		5517EA5A2AB2447C00D4FC7A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5517EA592AB2447C00D4FC7A /* MainView.swift */; };
+		5575F3F32ABF6F7C00E3917E /* DreamJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575F3F22ABF6F7C00E3917E /* DreamJournalApp.swift */; };
+		5575F3F92ABF6F7E00E3917E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5575F3F82ABF6F7E00E3917E /* Assets.xcassets */; };
+		5575F3FC2ABF6F7E00E3917E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5575F3FB2ABF6F7E00E3917E /* Preview Assets.xcassets */; };
+		5575F4042ABF6FC000E3917E /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575F4032ABF6FC000E3917E /* Dream.swift */; };
+		5575F4072ABF70E500E3917E /* AddDreamIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575F4062ABF70E500E3917E /* AddDreamIntent.swift */; };
+		5575F40A2ABF74C400E3917E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575F4092ABF74C400E3917E /* MainView.swift */; };
+		5575F4102ABF8E0600E3917E /* DeleteDreamIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575F40F2ABF8E0600E3917E /* DeleteDreamIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5517EA3B2AB2433100D4FC7A /* Spider-Man Choose Your Own Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spider-Man Choose Your Own Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5517EA3E2AB2433100D4FC7A /* Spider_Man_Choose_Your_Own_AdventureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spider_Man_Choose_Your_Own_AdventureApp.swift; sourceTree = "<group>"; };
-		5517EA422AB2433200D4FC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5517EA452AB2433200D4FC7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5517EA4A2AB2433200D4FC7A /* Spider_Man_Choose_Your_Own_Adventure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spider_Man_Choose_Your_Own_Adventure.xcdatamodel; sourceTree = "<group>"; };
-		5517EA532AB2438900D4FC7A /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
-		5517EA552AB243CC00D4FC7A /* Adventure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adventure.swift; sourceTree = "<group>"; };
-		5517EA572AB2443100D4FC7A /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
-		5517EA592AB2447C00D4FC7A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5575F3EF2ABF6F7C00E3917E /* DreamJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5575F3F22ABF6F7C00E3917E /* DreamJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamJournalApp.swift; sourceTree = "<group>"; };
+		5575F3F82ABF6F7E00E3917E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5575F3FB2ABF6F7E00E3917E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5575F4032ABF6FC000E3917E /* Dream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream.swift; sourceTree = "<group>"; };
+		5575F4062ABF70E500E3917E /* AddDreamIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDreamIntent.swift; sourceTree = "<group>"; };
+		5575F4092ABF74C400E3917E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5575F40F2ABF8E0600E3917E /* DeleteDreamIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDreamIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5517EA382AB2433100D4FC7A /* Frameworks */ = {
+		5575F3EC2ABF6F7C00E3917E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,147 +38,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5517EA322AB2433100D4FC7A = {
+		5575F3E62ABF6F7C00E3917E = {
 			isa = PBXGroup;
 			children = (
-				5517EA3D2AB2433100D4FC7A /* Spider-Man Choose Your Own Adventure */,
-				5517EA3C2AB2433100D4FC7A /* Products */,
+				5575F3F12ABF6F7C00E3917E /* DreamJournal */,
+				5575F3F02ABF6F7C00E3917E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5517EA3C2AB2433100D4FC7A /* Products */ = {
+		5575F3F02ABF6F7C00E3917E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5517EA3B2AB2433100D4FC7A /* Spider-Man Choose Your Own Adventure.app */,
+				5575F3EF2ABF6F7C00E3917E /* DreamJournal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5517EA3D2AB2433100D4FC7A /* Spider-Man Choose Your Own Adventure */ = {
+		5575F3F12ABF6F7C00E3917E /* DreamJournal */ = {
 			isa = PBXGroup;
 			children = (
-				5517EA522AB2434E00D4FC7A /* Models */,
-				5517EA512AB2434500D4FC7A /* Views */,
-				5517EA3E2AB2433100D4FC7A /* Spider_Man_Choose_Your_Own_AdventureApp.swift */,
-				5517EA422AB2433200D4FC7A /* Assets.xcassets */,
-				5517EA492AB2433200D4FC7A /* Spider_Man_Choose_Your_Own_Adventure.xcdatamodeld */,
-				5517EA442AB2433200D4FC7A /* Preview Content */,
+				5575F4082ABF732A00E3917E /* Views */,
+				5575F4052ABF70C700E3917E /* Intents */,
+				5575F4022ABF6FAF00E3917E /* Models */,
+				5575F3F22ABF6F7C00E3917E /* DreamJournalApp.swift */,
+				5575F3F82ABF6F7E00E3917E /* Assets.xcassets */,
+				5575F3FA2ABF6F7E00E3917E /* Preview Content */,
 			);
-			path = "Spider-Man Choose Your Own Adventure";
+			path = DreamJournal;
 			sourceTree = "<group>";
 		};
-		5517EA442AB2433200D4FC7A /* Preview Content */ = {
+		5575F3FA2ABF6F7E00E3917E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5517EA452AB2433200D4FC7A /* Preview Assets.xcassets */,
+				5575F3FB2ABF6F7E00E3917E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5517EA512AB2434500D4FC7A /* Views */ = {
+		5575F4022ABF6FAF00E3917E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5517EA572AB2443100D4FC7A /* PageView.swift */,
-				5517EA592AB2447C00D4FC7A /* MainView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		5517EA522AB2434E00D4FC7A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				5517EA532AB2438900D4FC7A /* Story.swift */,
-				5517EA552AB243CC00D4FC7A /* Adventure.swift */,
+				5575F4032ABF6FC000E3917E /* Dream.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5575F4052ABF70C700E3917E /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				5575F4062ABF70E500E3917E /* AddDreamIntent.swift */,
+				5575F40F2ABF8E0600E3917E /* DeleteDreamIntent.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		5575F4082ABF732A00E3917E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5575F4092ABF74C400E3917E /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5517EA3A2AB2433100D4FC7A /* Spider-Man Choose Your Own Adventure */ = {
+		5575F3EE2ABF6F7C00E3917E /* DreamJournal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5517EA4E2AB2433200D4FC7A /* Build configuration list for PBXNativeTarget "Spider-Man Choose Your Own Adventure" */;
+			buildConfigurationList = 5575F3FF2ABF6F7E00E3917E /* Build configuration list for PBXNativeTarget "DreamJournal" */;
 			buildPhases = (
-				5517EA372AB2433100D4FC7A /* Sources */,
-				5517EA382AB2433100D4FC7A /* Frameworks */,
-				5517EA392AB2433100D4FC7A /* Resources */,
+				5575F3EB2ABF6F7C00E3917E /* Sources */,
+				5575F3EC2ABF6F7C00E3917E /* Frameworks */,
+				5575F3ED2ABF6F7C00E3917E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Spider-Man Choose Your Own Adventure";
-			productName = "Spider-Man Choose Your Own Adventure";
-			productReference = 5517EA3B2AB2433100D4FC7A /* Spider-Man Choose Your Own Adventure.app */;
+			name = DreamJournal;
+			productName = DreamJournal;
+			productReference = 5575F3EF2ABF6F7C00E3917E /* DreamJournal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5517EA332AB2433100D4FC7A /* Project object */ = {
+		5575F3E72ABF6F7C00E3917E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					5517EA3A2AB2433100D4FC7A = {
-						CreatedOnToolsVersion = 14.3.1;
+					5575F3EE2ABF6F7C00E3917E = {
+						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = 5517EA362AB2433100D4FC7A /* Build configuration list for PBXProject "Spider-Man Choose Your Own Adventure" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 5575F3EA2ABF6F7C00E3917E /* Build configuration list for PBXProject "DreamJournal" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5517EA322AB2433100D4FC7A;
-			productRefGroup = 5517EA3C2AB2433100D4FC7A /* Products */;
+			mainGroup = 5575F3E62ABF6F7C00E3917E;
+			productRefGroup = 5575F3F02ABF6F7C00E3917E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5517EA3A2AB2433100D4FC7A /* Spider-Man Choose Your Own Adventure */,
+				5575F3EE2ABF6F7C00E3917E /* DreamJournal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5517EA392AB2433100D4FC7A /* Resources */ = {
+		5575F3ED2ABF6F7C00E3917E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5517EA462AB2433200D4FC7A /* Preview Assets.xcassets in Resources */,
-				5517EA432AB2433200D4FC7A /* Assets.xcassets in Resources */,
+				5575F3FC2ABF6F7E00E3917E /* Preview Assets.xcassets in Resources */,
+				5575F3F92ABF6F7E00E3917E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5517EA372AB2433100D4FC7A /* Sources */ = {
+		5575F3EB2ABF6F7C00E3917E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5517EA5A2AB2447C00D4FC7A /* MainView.swift in Sources */,
-				5517EA4B2AB2433200D4FC7A /* Spider_Man_Choose_Your_Own_Adventure.xcdatamodeld in Sources */,
-				5517EA562AB243CC00D4FC7A /* Adventure.swift in Sources */,
-				5517EA3F2AB2433100D4FC7A /* Spider_Man_Choose_Your_Own_AdventureApp.swift in Sources */,
-				5517EA542AB2438900D4FC7A /* Story.swift in Sources */,
-				5517EA582AB2443100D4FC7A /* PageView.swift in Sources */,
+				5575F40A2ABF74C400E3917E /* MainView.swift in Sources */,
+				5575F3F32ABF6F7C00E3917E /* DreamJournalApp.swift in Sources */,
+				5575F4072ABF70E500E3917E /* AddDreamIntent.swift in Sources */,
+				5575F4042ABF6FC000E3917E /* Dream.swift in Sources */,
+				5575F4102ABF8E0600E3917E /* DeleteDreamIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5517EA4C2AB2433200D4FC7A /* Debug */ = {
+		5575F3FD2ABF6F7E00E3917E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -213,7 +218,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -227,20 +233,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		5517EA4D2AB2433200D4FC7A /* Release */ = {
+		5575F3FE2ABF6F7E00E3917E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -273,7 +281,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -281,24 +290,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5517EA4F2AB2433200D4FC7A /* Debug */ = {
+		5575F4002ABF6F7E00E3917E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Spider-Man Choose Your Own Adventure/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DreamJournal/Preview Content\"";
 				DEVELOPMENT_TEAM = P7FYQ2HW53;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -312,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Richard.Spider-Man-Choose-Your-Own-Adventure";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Richard.DreamJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,14 +329,14 @@
 			};
 			name = Debug;
 		};
-		5517EA502AB2433200D4FC7A /* Release */ = {
+		5575F4012ABF6F7E00E3917E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Spider-Man Choose Your Own Adventure/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DreamJournal/Preview Content\"";
 				DEVELOPMENT_TEAM = P7FYQ2HW53;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -341,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Richard.Spider-Man-Choose-Your-Own-Adventure";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Richard.DreamJournal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,38 +361,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5517EA362AB2433100D4FC7A /* Build configuration list for PBXProject "Spider-Man Choose Your Own Adventure" */ = {
+		5575F3EA2ABF6F7C00E3917E /* Build configuration list for PBXProject "DreamJournal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5517EA4C2AB2433200D4FC7A /* Debug */,
-				5517EA4D2AB2433200D4FC7A /* Release */,
+				5575F3FD2ABF6F7E00E3917E /* Debug */,
+				5575F3FE2ABF6F7E00E3917E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5517EA4E2AB2433200D4FC7A /* Build configuration list for PBXNativeTarget "Spider-Man Choose Your Own Adventure" */ = {
+		5575F3FF2ABF6F7E00E3917E /* Build configuration list for PBXNativeTarget "DreamJournal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5517EA4F2AB2433200D4FC7A /* Debug */,
-				5517EA502AB2433200D4FC7A /* Release */,
+				5575F4002ABF6F7E00E3917E /* Debug */,
+				5575F4012ABF6F7E00E3917E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		5517EA492AB2433200D4FC7A /* Spider_Man_Choose_Your_Own_Adventure.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				5517EA4A2AB2433200D4FC7A /* Spider_Man_Choose_Your_Own_Adventure.xcdatamodel */,
-			);
-			currentVersion = 5517EA4A2AB2433200D4FC7A /* Spider_Man_Choose_Your_Own_Adventure.xcdatamodel */;
-			path = Spider_Man_Choose_Your_Own_Adventure.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 5517EA332AB2433100D4FC7A /* Project object */;
+	rootObject = 5575F3E72ABF6F7C00E3917E /* Project object */;
 }
