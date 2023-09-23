@@ -1,5 +1,5 @@
 # View Intent Model
-The View Intent Model or Model View Intent pattern is much like MVVM or MVC in that this pattern consistents of using Views to handle presentation of code and a model to represent our data. The difference with this pattern relies on the use of [AppIntents](https://developer.apple.com/documentation/appintents/app-intents). 
+The [View Intent Model](https://www.youtube.com/watch?v=yM-0NPjuBzs) or Model View Intent pattern is much like MVVM or MVC in that this pattern consistents of using Views to handle presentation of code and a model to represent our data. The difference with this pattern relies on the use of [AppIntents](https://developer.apple.com/documentation/appintents/app-intents). This apporach can be extremely powerful [when building Widget based user interfaces](https://www.swiftjectivec.com/snip-create-a-basic-interactive-widget-using-app-intent-button/)
 
 The app intents can be thought of as a datatype to represent that a piece of code should perform some type of action based of the data it is provided. These particular actions are encapsulated adding a high degree of reusability when multiple view need to perform an action or removing business logic out of a view altogether. The samples below are from a Dream Journal style application.
 
@@ -167,3 +167,9 @@ struct MainView: View {
 }
 
 ```
+
+
+# Demo
+And to wrap it up here is a screenshot of what our example ios app would look like
+
+![Image](../ViewIntentModel/images/Demo.gif)
