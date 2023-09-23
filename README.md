@@ -53,6 +53,11 @@ Helpful link working with collections [Linq Like Swift](https://github.com/mythz
 2. [The basics of The Composable Architecture ](https://www.youtube.com/watch?v=SfFDj6qT-xg&t=219s)
     ### Artciles On The Composable Architecture
     1. [Building Better iOS Apps with Swift Composable Architecture](https://medium.com/macoclock/building-better-ios-apps-with-swift-composable-architecture-754feb27c183)
+
+
+[View Intent Model](https://www.youtube.com/watch?v=yM-0NPjuBzs)
+
+* [VIM](src/Concepts/Architectural%20Patterns/ViewIntentModel/README.md)
     ## More
 * [APIs](src/Concepts/More/APIs/README.md)
 * [Notifications](src/Concepts/More/Notifications/README.md)
